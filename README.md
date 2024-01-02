@@ -28,7 +28,7 @@ To use the Holo2Bright dataset in your project,
 To clone the repository and access the Holo2Bright dataset:
 
 ```
-git clone github.com/DeepTrackAI/holo2bright_dataset.git
+git clone https://github.com/DeepTrackAI/holo2bright_dataset.git
 cd holo2bright_dataset
 ```
 
