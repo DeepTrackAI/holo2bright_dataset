@@ -1,45 +1,74 @@
-# Holo2Bright dataset
+# Holo2Bright Dataset (holo2bright_dataset)
 
-Welcome to the GitHub page of DeepTrackAI's Holo2Bright dataset. The Holo2Bright dataset is a collection of unpaired images of planktons belonging to two different microscopic modalities namely holographic microscopy and bright-field microscopy. The dataset is used for training and evaluating CycleGAN models for unpaired image-to-image translation.
+## Overview
 
-## Description
+This DeepTrackAI repository provides a copy of the **Holo2Bright** dataset, consisting of unpaired holographic and bright-field microscopy images of marine microplankton.  
+The dataset originates from [Bachimanchi et al., eLife, 2022] (https://doi.org/10.7554/eLife.79760), where it was used to train and evaluate deep learning models for reconstructing bright-field images from holograms.
 
-The Holo2Bright dataset consists of images of microplankton imaged under two different microscopic systems, namely holographic microscopy and brightfield microscopy.
+### Summary
+- **Number of images**:  
+  - Training set: 4,500 holographic + 880 bright-field images  
+  - Test set: 4,500 holographic + 244 bright-field images  
+- **Image size**: 256 × 256 pixels  
+- **Format**: 8-bit grayscale PNG  
 
-The dataset consists of three folders, namely:
+---
 
-- `train` consisting of 4500 holographic images and 880 brightfield images under the subfolders `holography`and `brightfield` respectively.
-- `test` consisting of 4500 holographic images and 244 brightfield images under the subfolders `holography`and `brightfield` respectively.
+## Original Source
 
-Holographic images are grayscale images, and brightfield images are RGB images. The images are of size 256x256 pixels.
+- **Title**: Microplankton life histories revealed by holographic microscopy and deep learning
+- **Authors**: Harshith Bachimanchi, Benjamin Midtvedt, Daniel Midtvedt, Erik Selander, Giovanni Volpe  
+- **Journal**: eLife, 11:e79760 (2022)  
+- **DOI**: [10.7554/eLife.79760](https://doi.org/10.7554/eLife.79760)  
 
-Since the images are unpaired, the images in the `holography` and `brightfield` subfolders are not aligned.
+If you use this dataset in your research, you must follow the licensing requirements and properly attribute the original authors.
 
-## Usage
+---
 
-To use the Holo2Bright dataset in your project,
+## Dataset Structure
 
-1. Clone the repository to your local machine.
-2. Import the dataset into your machine learning framework of choice.
-3. Train or evaluate your models using the dataset.
-
-### Download via command line
-
-To clone the repository and access the Holo2Bright dataset:
-
+```bash
+/holo2bright_dataset
+├── train/
+│   ├── holograms/          # 4,500 holographic images (256×256 PNG)
+│   └── brightfield/        # 880 bright-field images (256×256 PNG)
+└── test/
+    ├── holograms/          # 4,500 holographic images (256×256 PNG)
+    └── brightfield/        # 244 bright-field images (256×256 PNG)
 ```
-git clone https://github.com/DeepTrackAI/holo2bright_dataset.git
+
+---
+
+## How to Access the Data
+
+### Clone the Repository
+```bash
+git clone https://github.com/DeepTrackAI/holo2bright_dataset
 cd holo2bright_dataset
 ```
 
-## Acknowledgements
+---
 
-The Holo2Bright dataset was originally created by Harshith Bachimanchi, Erik Selander & Giovanni Volpe at the Soft Matter Lab, University of Gothenburg, Sweden.
+## Attribution
+
+### Cite the paper:
+Bachimanchi H, Midtvedt B, Midtvedt D, Selander E, Volpe G. *Microplankton life histories revealed by holographic microscopy and deep learning.* eLife 11:e79760 (2022). [https://doi.org/10.7554/eLife.79760](https://doi.org/10.7554/eLife.79760)
+
+```bibtex
+@article{bachimanchi2022microplankton,
+  title={Microplankton life histories revealed by holographic microscopy and deep learning},
+  author={Bachimanchi, Harshith and Midtvedt, Benjamin and Midtvedt, Daniel and Selander, Erik and Volpe, Giovanni},
+  journal={eLife},
+  volume={11},
+  pages={e79760},
+  year={2022},
+  publisher={eLife Sciences Publications Limited},
+  doi={10.7554/eLife.79760}
+}
+```
+
+---
 
 ## License
 
-The Holo2Bright dataset is made available under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
-
-## Contributing
-
-If you find any issues with the dataset or have suggestions for improvements, please open an issue or submit a pull request.
+This dataset is shared under the **Creative Commons Attribution 4.0 International** License, following the original licensing terms.
