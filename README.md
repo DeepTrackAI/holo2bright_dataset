@@ -10,7 +10,7 @@ The dataset originates from [Bachimanchi et al., eLife, 2022] (https://doi.org/1
   - Training set: 4,500 holographic + 880 bright-field images  
   - Test set: 4,500 holographic + 244 bright-field images  
 - **Image size**: 256 × 256 pixels  
-- **Format**: 8-bit grayscale PNG  
+- **Image format**: 8-bit grayscale PNG  
 
 ---
 
