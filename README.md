@@ -16,12 +16,14 @@ The dataset originates from [Bachimanchi et al., eLife, 2022] (https://doi.org/1
 
 ## Original Source
 
-- **Title**: Microplankton life histories revealed by holographic microscopy and deep learning
+- **Title**: Holo2Bright dataset  
 - **Authors**: Harshith Bachimanchi, Benjamin Midtvedt, Daniel Midtvedt, Erik Selander, Giovanni Volpe  
-- **Journal**: eLife, 11:e79760 (2022)  
-- **DOI**: [10.7554/eLife.79760](https://doi.org/10.7554/eLife.79760)  
+- **Source**: This repository  
+- **Reference**: Bachimanchi S. et al. *eLife* 11:e79760 (2022).  
+  [DOI: 10.7554/eLife.79760](https://doi.org/10.7554/eLife.79760)  
+- **License**: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
-If you use this dataset in your research, you must follow the licensing requirements and properly attribute the original authors.
+If you use this dataset in your research, please follow the licensing requirements and properly attribute the original authors.
 
 ---
 
