@@ -20,7 +20,7 @@ The dataset originates from [Bachimanchi et al., eLife, 2022] (https://doi.org/1
 - **Title**: Holo2Bright dataset  
 - **Authors**: Harshith Bachimanchi, Benjamin Midtvedt, Daniel Midtvedt, Erik Selander, Giovanni Volpe  
 - **Source**: This repository  
-- **Reference**: Bachimanchi S. et al. *eLife* 11:e79760 (2022). [DOI: 10.7554/eLife.79760](https://doi.org/10.7554/eLife.79760)  
+- **Reference article**: Bachimanchi S. et al. *eLife* 11:e79760 (2022). [DOI: 10.7554/eLife.79760](https://doi.org/10.7554/eLife.79760)  
 - **License**: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
 If you use this dataset in your research, please follow the licensing requirements and properly attribute the original authors.
@@ -77,8 +77,20 @@ cd holo2bright_dataset
 
 ## Attribution
 
-### Cite the paper:
-Bachimanchi H, Midtvedt B, Midtvedt D, Selander E, Volpe G. *Microplankton life histories revealed by holographic microscopy and deep learning.* eLife 11:e79760 (2022). [https://doi.org/10.7554/eLife.79760](https://doi.org/10.7554/eLife.79760)
+### Cite this repository:
+Bachimanchi H, Midtvedt B, Midtvedt D, Selander E, Volpe G. *Holo2Bright Dataset* GitHub (2025). [GitHub](https://github.com/DeepTrackAI/holo2bright_datase)
+
+```bibtex
+@misc{bachimanchi2025holo2bright,
+  author={Bachimanchi, Harshith and Midtvedt, Benjamin and Midtvedt, Daniel and Selander, Erik and Volpe, Giovanni},
+  title        = {Holo2Bright Dataset},
+  year         = {2025},
+  howpublished = {\url{https://github.com/DeepTrackAI/holo2bright_dataset}}
+}
+```
+
+### Cite the reference article:
+Bachimanchi H, Midtvedt B, Midtvedt D, Selander E, Volpe G. *Microplankton life histories revealed by holographic microscopy and deep learning.* eLife 11:e79760 (2022). [DOI: 10.7554/eLife.79760](https://doi.org/10.7554/eLife.79760)
 
 ```bibtex
 @article{bachimanchi2022microplankton,
@@ -97,4 +109,4 @@ Bachimanchi H, Midtvedt B, Midtvedt D, Selander E, Volpe G. *Microplankton life 
 
 ## License
 
-This dataset is shared under the **Creative Commons Attribution 4.0 International** License, following the original licensing terms.
+This dataset is shared under the [Creative Commons Attribution 4.0 International (CC BY 4.0) License](https://creativecommons.org/licenses/by/4.0/).
