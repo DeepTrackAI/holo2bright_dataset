@@ -8,7 +8,8 @@ The dataset originates from [Bachimanchi et al., eLife, 2022] (https://doi.org/1
 ### Summary
 - **Number of images**:  
   - Training set: 4,500 holographic + 880 bright-field images  
-  - Test set: 4,500 holographic + 244 bright-field images  
+  - Test set: 4,500 holographic + 244 bright-field images
+  - Test video 100 holographic + 100 bright-field images
 - **Image size**: 256 × 256 pixels  
 - **Image format**: 8-bit grayscale PNG  
 
@@ -30,13 +31,37 @@ If you use this dataset in your research, please follow the licensing requiremen
 
 ```bash
 /holo2bright_dataset
-├── train/
-│   ├── holograms/          # 4,500 holographic images (256×256 PNG)
-│   └── brightfield/        # 880 bright-field images (256×256 PNG)
-└── test/
-    ├── holograms/          # 4,500 holographic images (256×256 PNG)
-    └── brightfield/        # 244 bright-field images (256×256 PNG)
+└── holo2bright/
+    └── train/                # Training set (static images)
+        ├── holography/       # Holographic images
+        │   ├── 00000.png
+        │   ├── 00001.png
+        │   └── ...
+        ├── brightfield/      # Bright-field images
+        │   ├── 00000.png
+        │   ├── 00001.png
+        │   └── ...
+        ├── test/             # Test set (static images)
+        │   ├── holography/   # Holographic images
+        │   │   ├── 00000.png
+        │   │   ├── 00001.png
+        │   │   └── ...
+        │   └── brightfield/  # Bright-field images
+        │       ├── 00000.png
+        │       ├── 00001.png
+        │       └── ...
+        └── test_videos/      # Test set (video sequences exported frame by frame)
+            ├── holography/   # Holographic frames
+            │   ├── 00000.png
+            │   ├── 00001.png
+            │   └── ...
+            └── brightfield/  # Bright-field frames
+                ├── 00000.png
+                ├── 00001.png
+                └── ...       
 ```
+
+Each filename is a sequential numerical identifier. The `test_videos` folder contains frame-by-frame exports of dynamic sequences, in contrast to the static snapshots in `test/`.
 
 ---
 
