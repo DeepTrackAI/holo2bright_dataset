@@ -77,7 +77,7 @@ cd holo2bright_dataset
 
 ## Attribution
 
-If you use this dataset, please cite both the Holo2Bright dataset and the reference article.
+If you use this dataset, please cite both the Holo2Bright dataset repository and the reference article.
 
 ### Cite this repository:
 Bachimanchi H, Midtvedt B, Midtvedt D, Selander E, Volpe G. *Holo2Bright Dataset* GitHub (2025). [GitHub](https://github.com/DeepTrackAI/holo2bright_datase)
